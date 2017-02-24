@@ -300,7 +300,7 @@
         </label>
         <div id="register_tnc_error"> </div>
     </div>
-    <input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" value="uOSpjnr_4R0r1-8ZNgcWtD5GGabKoHKL7c-3xwhAH0o">
+    {{ form_widget(form._token) }}
     <div class="form-actions">
         <a href="{{ path('fos_user_security_login') }}" class="btn red btn-outline"> Back </a>
         <button type="submit" id="register-submit-btn" class="btn green pull-right"> Sign Up </button>
