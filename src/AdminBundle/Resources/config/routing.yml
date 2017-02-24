@@ -1,0 +1,15 @@
+admin_homepage:
+    path:     /
+    defaults: { _controller: AdminBundle:Admin:index }
+
+admin_manage_users:
+    path:     /manage-users
+    defaults: { _controller: AdminBundle:Admin:manageUsers }
+
+admin_edit_ajax:
+    path:     /edit-ajax
+    defaults: { _controller: AdminBundle:Admin:editAjax }
+
+admin_delete_ajax:
+    path:     /delete-ajax
+    defaults: { _controller: AdminBundle:Admin:deleteAjax }

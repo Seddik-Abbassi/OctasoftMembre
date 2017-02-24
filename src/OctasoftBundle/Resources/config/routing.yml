@@ -1,0 +1,3 @@
+octasoft_homepage:
+    path:     /
+    defaults: { _controller: OctasoftBundle:Main:index }
