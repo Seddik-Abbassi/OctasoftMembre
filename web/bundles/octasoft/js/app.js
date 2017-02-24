@@ -46,4 +46,6 @@ jQuery(document).ready(function($){
         $(".alert-info").hide();
     });
 
+    $('#users-list').dataTable();
+
 });

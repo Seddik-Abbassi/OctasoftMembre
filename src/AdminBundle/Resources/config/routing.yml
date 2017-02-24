@@ -13,3 +13,7 @@ admin_edit_ajax:
 admin_delete_ajax:
     path:     /delete-ajax
     defaults: { _controller: AdminBundle:Admin:deleteAjax }
+
+admin_users_json:
+    path:     /users-data
+    defaults: { _controller: AdminBundle:Admin:usersData }

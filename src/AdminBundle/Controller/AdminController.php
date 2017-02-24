@@ -98,4 +98,12 @@ class AdminController extends Controller
             return new Response(json_encode(array('id'=>$id)));
         }
     }
+
+    public function usersDataAction()
+    {
+        $userManager = $this->get('fos_user.user_manager');
+        $users = $userManager->findUsers();
+
+        return new Response(json_encode($users));
+    }
 }
